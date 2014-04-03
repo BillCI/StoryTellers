@@ -1,15 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Node : MonoBehaviour {
+public class Node {
+	private Story _story;
+	public Story story{
+		get {
+			return _story;
+		} 
+		set {
+			this._story = value;
+		}
+	}
 
-	// Use this for initialization
-	void Start () {
-	
+	private Character _character;
+	public Character character {
+		get {
+			return _character;
+		}
+		set {
+			_character = value;
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+	private Wedge
+
+
 }
