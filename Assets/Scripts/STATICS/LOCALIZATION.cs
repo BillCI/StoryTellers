@@ -4,7 +4,7 @@ using System.Collections;
 public static class LOCALIZATION {
 	public enum language {english}
 
-	private static LOCALIZATION.language _currentLanguage = LOCALIZATION.language;
+	private static LOCALIZATION.language _currentLanguage = LOCALIZATION.language.english;
 	public static LOCALIZATION.language currentLanguage {
 		get {
 			return LOCALIZATION._currentLanguage;
