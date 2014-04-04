@@ -22,7 +22,7 @@ public class Node {
 		}
 	}
 
-	private Wedge
+	private Wedge[] _wedges[];
 
 
 }
