@@ -24,7 +24,9 @@ public class Emotion {
 		get {
 			return this._parrent;
 		}
-		set {}
+		set {
+			this._parrent = value;
+		}
 	}
 	
 	protected Emotion _olderSibling;
@@ -32,7 +34,10 @@ public class Emotion {
 		get {
 			return this._olderSibling;
 		}
-		set {}
+		set {
+			value.yungerSibling = this;
+			this._olderSibling = value;
+		}
 	}
 
 	protected Emotion _yungerSibling;
@@ -40,7 +45,9 @@ public class Emotion {
 		get {
 			return this._yungerSibling;
 		}
-		set {}
+		set {
+			this._yungerSibling = value;
+		}
 	}
 
 	protected Emotion[] _children;
@@ -48,7 +55,12 @@ public class Emotion {
 		get {
 			return this._children;
 		}
-		set {}
+		set {
+			this._children = value;
+			foreach(Emotion e in this._children) {
+				e.parrent = this;
+			}
+		}
 	}
 
 	protected float _fillTime = NUMBERS.defaultEmotionFillTime;
@@ -66,4 +78,6 @@ public class Emotion {
 		}
 		set {}
 	}
+
+
 }
