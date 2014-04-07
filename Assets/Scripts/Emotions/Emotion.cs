@@ -79,5 +79,12 @@ public class Emotion {
 		set {}
 	}
 
+	protected int _trigerCount = 0;
+	public int trigerCount {
+		get {
+			return this._trigerCount;
+		}
+		set{}
+	}
 
 }

@@ -2,472 +2,478 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class EmotionWheal : MonoBehaviour {
-	private Dictionary<string,Emotion> _emotions{
+public class EmotionWheal {
+	private Dictionary<string,Emotion> _emotions = null;
+	public Dictionary<string,Emotion> emotions{
 		get {
 			if(this._emotions == null){
 				this._emotions = EmotionWheal.getDefaultWheal();
 			}
 			return this._emotions;
 		}
-		set {
-			this._emotions = value;
-		}
+		set {}
 	}
+
+	private string _currentEmotion = "Fear";
+	public string currentEmotion {
+		get{return this._currentEmotion;}
+		set{}
+	}
+
 	public Emotion fear{
-		get{ return this._emotions["fear"];}
+		get{ return this.emotions["Fear"];}
 		set{}
 	}
 	public Emotion scared{
-		get{ return this._emotions["scared"];}
+		get{ return this.emotions["Scared"];}
 		set{}
 	}
 	public Emotion terrified{
-		get{ return this._emotions["terrified"];}
+		get{ return this.emotions["Terrified"];}
 		set{}
 	}
 	public Emotion frightened{
-		get{ return this._emotions["frightened"];}
+		get{ return this.emotions["Frightened"];}
 		set{}
 	}
 	public Emotion anxious{
-		get{ return this._emotions["anxious"];}
+		get{ return this.emotions["Anxious"];}
 		set{}
 	}
 	public Emotion overwhelmed{
-		get{ return this._emotions["overwhelmed"];}
+		get{ return this.emotions["Overwhelmed"];}
 		set{}
 	}
 	public Emotion worried{
-		get{ return this._emotions["worried"];}
+		get{ return this.emotions["Worried"];}
 		set{}
 	}
 	public Emotion apprehensive{
-		get{ return this._emotions["apprehensive"];}
+		get{ return this.emotions["Apprehensive"];}
 		set{}
 	}
 	public Emotion inadequate{
-		get{ return this._emotions["inadequate"];}
+		get{ return this.emotions["Inadequate"];}
 		set{}
 	}
 	public Emotion inferior{
-		get{ return this._emotions["inferior"];}
+		get{ return this.emotions["Inferior"];}
 		set{}
 	}
 	public Emotion submissive{
-		get{ return this._emotions["submissive"];}
+		get{ return this.emotions["Submissive"];}
 		set{}
 	}
 	public Emotion worthless{
-		get{ return this._emotions["worthless"];}
+		get{ return this.emotions["Worthless"];}
 		set{}
 	}
 	public Emotion insignificant{
-		get{ return this._emotions["insignificant"];}
+		get{ return this.emotions["Insignificant"];}
 		set{}
 	}
 	public Emotion rejected{
-		get{ return this._emotions["rejected"];}
+		get{ return this.emotions["Rejected"];}
 		set{}
 	}
 	public Emotion deficient{
-		get{ return this._emotions["deficient"];}
+		get{ return this.emotions["Deficient"];}
 		set{}
 	}
 	public Emotion alienated{
-		get{ return this._emotions["alienated"];}
+		get{ return this.emotions["Alienated"];}
 		set{}
 	}
 	public Emotion humiliated{
-		get{ return this._emotions["humiliated"];}
+		get{ return this.emotions["Humiliated"];}
 		set{}
 	}
 	public Emotion disrespected{
-		get{ return this._emotions["disrespected"];}
+		get{ return this.emotions["Disrespected"];}
 		set{}
 	}
 	public Emotion ridiculed{
-		get{ return this._emotions["ridiculed"];}
+		get{ return this.emotions["Ridiculed"];}
 		set{}
 	}
 	public Emotion anger{
-		get{ return this._emotions["anger"];}
+		get{ return this.emotions["Anger"];}
 		set{}
 	}
 	public Emotion hurt{
-		get{ return this._emotions["hurt"];}
+		get{ return this.emotions["Hurt"];}
 		set{}
 	}
 	public Emotion embarrassed{
-		get{ return this._emotions["embarrassed"];}
+		get{ return this.emotions["Embarrassed"];}
 		set{}
 	}
 	public Emotion devastated{
-		get{ return this._emotions["devastated"];}
+		get{ return this.emotions["Devastated"];}
 		set{}
 	}
 	public Emotion threatened{
-		get{ return this._emotions["threatened"];}
+		get{ return this.emotions["Threatened"];}
 		set{}
 	}
 	public Emotion insecure{
-		get{ return this._emotions["insecure"];}
+		get{ return this.emotions["Insecure"];}
 		set{}
 	}
 	public Emotion jealous{
-		get{ return this._emotions["jealous"];}
+		get{ return this.emotions["Jealous"];}
 		set{}
 	}
 	public Emotion hateful{
-		get{ return this._emotions["hateful"];}
+		get{ return this.emotions["Hateful"];}
 		set{}
 	}
 	public Emotion resentful{
-		get{ return this._emotions["resentful"];}
+		get{ return this.emotions["Resentful"];}
 		set{}
 	}
 	public Emotion violated{
-		get{ return this._emotions["violated"];}
+		get{ return this.emotions["Violated"];}
 		set{}
 	}
 	public Emotion mad{
-		get{ return this._emotions["mad"];}
+		get{ return this.emotions["Mad"];}
 		set{}
 	}
 	public Emotion furious{
-		get{ return this._emotions["furious"];}
+		get{ return this.emotions["Furious"];}
 		set{}
 	}
 	public Emotion enraged{
-		get{ return this._emotions["enraged"];}
+		get{ return this.emotions["Enraged"];}
 		set{}
 	}
 	public Emotion aggressive{
-		get{ return this._emotions["aggressive"];}
+		get{ return this.emotions["Aggressive"];}
 		set{}
 	}
 	public Emotion provoked{
-		get{ return this._emotions["provoked"];}
+		get{ return this.emotions["Provoked"];}
 		set{}
 	}
 	public Emotion hostile{
-		get{ return this._emotions["hostile"];}
+		get{ return this.emotions["Hostile"];}
 		set{}
 	}
 	public Emotion frustrated{
-		get{ return this._emotions["frustrated"];}
+		get{ return this.emotions["Frustrated"];}
 		set{}
 	}
 	public Emotion infuriated{
-		get{ return this._emotions["infuriated"];}
+		get{ return this.emotions["Infuriated"];}
 		set{}
 	}
 	public Emotion irritated{
-		get{ return this._emotions["irritated"];}
+		get{ return this.emotions["Irritated"];}
 		set{}
 	}
 	public Emotion distant{
-		get{ return this._emotions["distant"];}
+		get{ return this.emotions["Distant"];}
 		set{}
 	}
 	public Emotion withdrawn{
-		get{ return this._emotions["withdrawn"];}
+		get{ return this.emotions["Withdrawn"];}
 		set{}
 	}
 	public Emotion suspicious{
-		get{ return this._emotions["suspicious"];}
+		get{ return this.emotions["Suspicious"];}
 		set{}
 	}
 	public Emotion critical{
-		get{ return this._emotions["critical"];}
+		get{ return this.emotions["Critical"];}
 		set{}
 	}
 	public Emotion skeptical{
-		get{ return this._emotions["skeptical"];}
+		get{ return this.emotions["Skeptical"];}
 		set{}
 	}
 	public Emotion sarcastic{
-		get{ return this._emotions["sarcastic"];}
+		get{ return this.emotions["Sarcastic"];}
 		set{}
 	}
 	public Emotion disgust{
-		get{ return this._emotions["disgust"];}
+		get{ return this.emotions["Disgust"];}
 		set{}
 	}
 	public Emotion disapproval{
-		get{ return this._emotions["disapproval"];}
+		get{ return this.emotions["Disapproval"];}
 		set{}
 	}
 	public Emotion judgmental{
-		get{ return this._emotions["judgmental"];}
+		get{ return this.emotions["Judgmental"];}
 		set{}
 	}
 	public Emotion loathing{
-		get{ return this._emotions["loathing"];}
+		get{ return this.emotions["Loathing"];}
 		set{}
 	}
 	public Emotion disappointed{
-		get{ return this._emotions["disappointed"];}
+		get{ return this.emotions["Disappointed"];}
 		set{}
 	}
 	public Emotion repugnant{
-		get{ return this._emotions["repugnant"];}
+		get{ return this.emotions["Repugnant"];}
 		set{}
 	}
 	public Emotion revolted{
-		get{ return this._emotions["revolted"];}
+		get{ return this.emotions["Revolted"];}
 		set{}
 	}
 	public Emotion awful{
-		get{ return this._emotions["awful"];}
+		get{ return this.emotions["Awful"];}
 		set{}
 	}
 	public Emotion revulsion{
-		get{ return this._emotions["revulsion"];}
+		get{ return this.emotions["Revulsion"];}
 		set{}
 	}
 	public Emotion detestable{
-		get{ return this._emotions["detestable"];}
+		get{ return this.emotions["Detestable"];}
 		set{}
 	}
 	public Emotion avoidance{
-		get{ return this._emotions["avoidance"];}
+		get{ return this.emotions["Avoidance"];}
 		set{}
 	}
 	public Emotion aversion{
-		get{ return this._emotions["aversion"];}
+		get{ return this.emotions["Aversion"];}
 		set{}
 	}
 	public Emotion hesitant{
-		get{ return this._emotions["hesitant"];}
+		get{ return this.emotions["Hesitant"];}
 		set{}
 	}
 	public Emotion sad{
-		get{ return this._emotions["sad"];}
+		get{ return this.emotions["Sad"];}
 		set{}
 	}
 	public Emotion guilty{
-		get{ return this._emotions["guilty"];}
+		get{ return this.emotions["Guilty"];}
 		set{}
 	}
 	public Emotion remorseful{
-		get{ return this._emotions["remorseful"];}
+		get{ return this.emotions["Remorseful"];}
 		set{}
 	}
 	public Emotion ashamed{
-		get{ return this._emotions["ashamed"];}
+		get{ return this.emotions["Ashamed"];}
 		set{}
 	}
 	public Emotion discarded{
-		get{ return this._emotions["discarded"];}
+		get{ return this.emotions["Discarded"];}
 		set{}
 	}
 	public Emotion ignored{
-		get{ return this._emotions["ignored"];}
+		get{ return this.emotions["Ignored"];}
 		set{}
 	}
 	public Emotion victimized{
-		get{ return this._emotions["victimized"];}
+		get{ return this.emotions["Victimized"];}
 		set{}
 	}
 	public Emotion despair{
-		get{ return this._emotions["despair"];}
+		get{ return this.emotions["Despair"];}
 		set{}
 	}
 	public Emotion powerless{
-		get{ return this._emotions["powerless"];}
+		get{ return this.emotions["Powerless"];}
 		set{}
 	}
 	public Emotion vulnerable{
-		get{ return this._emotions["vulnerable"];}
+		get{ return this.emotions["Vulnerable"];}
 		set{}
 	}
 	public Emotion depressed{
-		get{ return this._emotions["depressed"];}
+		get{ return this.emotions["Depressed"];}
 		set{}
 	}
 	public Emotion lesser{
-		get{ return this._emotions["lesser"];}
+		get{ return this.emotions["Lesser"];}
 		set{}
 	}
 	public Emotion empty{
-		get{ return this._emotions["empty"];}
+		get{ return this.emotions["Empty"];}
 		set{}
 	}
 	public Emotion lonely{
-		get{ return this._emotions["lonely"];}
+		get{ return this.emotions["Lonely"];}
 		set{}
 	}
 	public Emotion abandoned{
-		get{ return this._emotions["abandoned"];}
+		get{ return this.emotions["Abandoned"];}
 		set{}
 	}
 	public Emotion isolated{
-		get{ return this._emotions["isolated"];}
+		get{ return this.emotions["Isolated"];}
 		set{}
 	}
 	public Emotion bored{
-		get{ return this._emotions["bored"];}
+		get{ return this.emotions["Bored"];}
 		set{}
 	}
 	public Emotion apathetic{
-		get{ return this._emotions["apathetic"];}
+		get{ return this.emotions["Apathetic"];}
 		set{}
 	}
 	public Emotion indifferent{
-		get{ return this._emotions["indifferent"];}
+		get{ return this.emotions["Indifferent"];}
 		set{}
 	}
 	public Emotion happy{
-		get{ return this._emotions["happy"];}
+		get{ return this.emotions["Happy"];}
 		set{}
 	}
 	public Emotion optimistic{
-		get{ return this._emotions["optimistic"];}
+		get{ return this.emotions["Optimistic"];}
 		set{}
 	}
 	public Emotion inspired{
-		get{ return this._emotions["inspired"];}
+		get{ return this.emotions["Inspired"];}
 		set{}
 	}
 	public Emotion open{
-		get{ return this._emotions["open"];}
+		get{ return this.emotions["Open"];}
 		set{}
 	}
 	public Emotion intimate{
-		get{ return this._emotions["intimate"];}
+		get{ return this.emotions["Intimate"];}
 		set{}
 	}
 	public Emotion playful{
-		get{ return this._emotions["playful"];}
+		get{ return this.emotions["Playful"];}
 		set{}
 	}
 	public Emotion sensitive{
-		get{ return this._emotions["sensitive"];}
+		get{ return this.emotions["Sensitive"];}
 		set{}
 	}
 	public Emotion peaceful{
-		get{ return this._emotions["peaceful"];}
+		get{ return this.emotions["Peaceful"];}
 		set{}
 	}
 	public Emotion hopeful{
-		get{ return this._emotions["hopeful"];}
+		get{ return this.emotions["Hopeful"];}
 		set{}
 	}
 	public Emotion loving{
-		get{ return this._emotions["loving"];}
+		get{ return this.emotions["Loving"];}
 		set{}
 	}
 	public Emotion powerful{
-		get{ return this._emotions["powerful"];}
+		get{ return this.emotions["Powerful"];}
 		set{}
 	}
 	public Emotion provocative{
-		get{ return this._emotions["provocative"];}
+		get{ return this.emotions["Provocative"];}
 		set{}
 	}
 	public Emotion courageous{
-		get{ return this._emotions["courageous"];}
+		get{ return this.emotions["Courageous"];}
 		set{}
 	}
 	public Emotion accepted{
-		get{ return this._emotions["accepted"];}
+		get{ return this.emotions["Accepted"];}
 		set{}
 	}
 	public Emotion fulfilled{
-		get{ return this._emotions["fulfilled"];}
+		get{ return this.emotions["Fulfilled"];}
 		set{}
 	}
 	public Emotion respected{
-		get{ return this._emotions["respected"];}
+		get{ return this.emotions["Respected"];}
 		set{}
 	}
 	public Emotion proud{
-		get{ return this._emotions["proud"];}
+		get{ return this.emotions["Proud"];}
 		set{}
 	}
 	public Emotion confident{
-		get{ return this._emotions["confident"];}
+		get{ return this.emotions["Confident"];}
 		set{}
 	}
 	public Emotion important{
-		get{ return this._emotions["important"];}
+		get{ return this.emotions["Important"];}
 		set{}
 	}
 	public Emotion interested{
-		get{ return this._emotions["interested"];}
+		get{ return this.emotions["Interested"];}
 		set{}
 	}
 	public Emotion inquisitive{
-		get{ return this._emotions["inquisitive"];}
+		get{ return this.emotions["Inquisitive"];}
 		set{}
 	}
 	public Emotion amused{
-		get{ return this._emotions["amused"];}
+		get{ return this.emotions["Amused"];}
 		set{}
 	}
 	public Emotion joyful{
-		get{ return this._emotions["joyful"];}
+		get{ return this.emotions["Joyful"];}
 		set{}
 	}
 	public Emotion ecstatic{
-		get{ return this._emotions["ecstatic"];}
+		get{ return this.emotions["Ecstatic"];}
 		set{}
 	}
 	public Emotion liberated{
-		get{ return this._emotions["liberated"];}
+		get{ return this.emotions["Liberated"];}
 		set{}
 	}
 	public Emotion surprise{
-		get{ return this._emotions["surprise"];}
+		get{ return this.emotions["Surprise"];}
 		set{}
 	}
 	public Emotion excited{
-		get{ return this._emotions["excited"];}
+		get{ return this.emotions["Excited"];}
 		set{}
 	}
 	public Emotion energetic{
-		get{ return this._emotions["energetic"];}
+		get{ return this.emotions["Energetic"];}
 		set{}
 	}
 	public Emotion eager{
-		get{ return this._emotions["eager"];}
+		get{ return this.emotions["Eager"];}
 		set{}
 	}
 	public Emotion amazed{
-		get{ return this._emotions["amazed"];}
+		get{ return this.emotions["Amazed"];}
 		set{}
 	}
 	public Emotion awe{
-		get{ return this._emotions["awe"];}
+		get{ return this.emotions["Awe"];}
 		set{}
 	}
 	public Emotion astonished{
-		get{ return this._emotions["astonished"];}
+		get{ return this.emotions["Astonished"];}
 		set{}
 	}
 	public Emotion confused{
-		get{ return this._emotions["confused"];}
+		get{ return this.emotions["Confused"];}
 		set{}
 	}
 	public Emotion perplexed{
-		get{ return this._emotions["perplexed"];}
+		get{ return this.emotions["Perplexed"];}
 		set{}
 	}
 	public Emotion disillusioned{
-		get{ return this._emotions["disillusioned"];}
+		get{ return this.emotions["Disillusioned"];}
 		set{}
 	}
 	public Emotion startled{
-		get{ return this._emotions["startled"];}
+		get{ return this.emotions["Startled"];}
 		set{}
 	}
 	public Emotion dismayed{
-		get{ return this._emotions["dismayed"];}
+		get{ return this.emotions["Dismayed"];}
 		set{}
 	}
 	public Emotion shocked{
-		get{ return this._emotions["shocked"];}
+		get{ return this.emotions["Shocked"];}
 		set{}
 	}
 
