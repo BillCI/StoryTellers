@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class Scared : Emotion {
 	public Scared(){
 		this._name = LOCALIZATION.Scared;
@@ -11,9 +10,9 @@ public class Anxious : Emotion {
 		this._name = LOCALIZATION.Anxious;
 	}
 }
-public class Insecure : Emotion {
-	public Insecure(){
-		this._name = LOCALIZATION.Insecure;
+public class Apprehensive : Emotion {
+	public Apprehensive(){
+		this._name = LOCALIZATION.Apprehensive;
 	}
 }
 public class Submissive : Emotion {
@@ -96,9 +95,9 @@ public class Guilty : Emotion {
 		this._name = LOCALIZATION.Guilty;
 	}
 }
-public class Abandoned : Emotion {
-	public Abandoned(){
-		this._name = LOCALIZATION.Abandoned;
+public class Discarded : Emotion {
+	public Discarded(){
+		this._name = LOCALIZATION.Discarded;
 	}
 }
 public class Despair : Emotion {

@@ -11,7 +11,7 @@ public class Emotion {
 		set {}
 	}
 
-	protected string _name;
+	protected string _name = "Error: 602";
 	public string name {
 		get {
 			return this._name;

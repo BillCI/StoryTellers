@@ -23,51 +23,6 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Anger{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Anger";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Disgust{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Disgust";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Sad{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Sad";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Happy{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Happy";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Surprise{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Surprise";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
 	public static string Scared{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -77,316 +32,10 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Anxious{
+	public static string Terrified{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Anxious";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Insecure{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Insecure";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Submissive{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Submissive";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Rejected{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Rejected";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Humiliated{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Humiliated";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Hurt{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Hurt";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Threatened{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Threatened";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Hateful{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Hateful";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Mad{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Mad";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Aggressive{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Aggressive";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Frustrated{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Frustrated";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Distant{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Distant";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Critical{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Critical";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Disapproval{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Disapproval";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Disappointed{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Disappointed";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Awful{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Awful";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Avoidance{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Avoidance";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Guilty{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Guilty";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Abandoned{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Abandoned";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Despair{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Despair";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Depressed{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Depressed";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Lonely{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Lonely";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Bored{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Bored";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Optimistic{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Optimistic";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Intimate{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Intimate";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Peaceful{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Peaceful";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Powerful{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Powerful";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Accepted{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Accepted";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Proud{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Proud";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Interested{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Interested";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Joyful{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Joyful";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Excited{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Excited";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Amazed{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Amazed";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Confused{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Confused";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-	public static string Startled{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Startled";
+				return "Terrified";
 			} else {
 				return "Error: 601";
 			}
@@ -396,6 +45,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Frightened";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Anxious{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Anxious";
 			} else {
 				return "Error: 601";
 			}
@@ -419,6 +77,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Apprehensive{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Apprehensive";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Inadequate{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -432,6 +99,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Inferior";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Submissive{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Submissive";
 			} else {
 				return "Error: 601";
 			}
@@ -455,10 +131,19 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Inadequate{
+	public static string Rejected{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Inadequate";
+				return "Rejected";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Deficient{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Deficient";
 			} else {
 				return "Error: 601";
 			}
@@ -468,6 +153,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Alienated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Humiliated{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Humiliated";
 			} else {
 				return "Error: 601";
 			}
@@ -491,10 +185,28 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Emarrassed{
+	public static string Anger{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Emarrassed";
+				return "Anger";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Hurt{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Hurt";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Embarrassed{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Embarrassed";
 			} else {
 				return "Error: 601";
 			}
@@ -504,6 +216,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Devastated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Threatened{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Threatened";
 			} else {
 				return "Error: 601";
 			}
@@ -527,6 +248,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Hateful{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Hateful";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Resentful{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -540,6 +270,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Violated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Mad{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Mad";
 			} else {
 				return "Error: 601";
 			}
@@ -563,6 +302,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Aggressive{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Aggressive";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Provoked{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -581,10 +329,37 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Frustrated{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Frustrated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Infuriated{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Infuriated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Irritated{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Irritated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Distant{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Distant";
 			} else {
 				return "Error: 601";
 			}
@@ -608,6 +383,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Critical{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Critical";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Skeptical{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -621,6 +405,24 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Sarcastic";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Disgust{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Disgust";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Disapproval{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Disapproval";
 			} else {
 				return "Error: 601";
 			}
@@ -644,6 +446,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Disappointed{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Disappointed";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Repugnant{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -657,6 +468,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Revolted";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Awful{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Awful";
 			} else {
 				return "Error: 601";
 			}
@@ -680,6 +500,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Avoidance{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Avoidance";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Aversion{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -693,6 +522,24 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Hesitant";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Sad{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Sad";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Guilty{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Guilty";
 			} else {
 				return "Error: 601";
 			}
@@ -716,6 +563,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Discarded{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Discarded";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Ignored{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -729,6 +585,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Victimized";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Despair{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Despair";
 			} else {
 				return "Error: 601";
 			}
@@ -752,10 +617,19 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Inferior{
+	public static string Depressed{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Inferior";
+				return "Depressed";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Lesser{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Lesser";
 			} else {
 				return "Error: 601";
 			}
@@ -765,6 +639,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Empty";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Lonely{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Lonely";
 			} else {
 				return "Error: 601";
 			}
@@ -788,6 +671,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Bored{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Bored";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Apathetic{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -801,6 +693,24 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Indifferent";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Happy{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Happy";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Optimistic{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Optimistic";
 			} else {
 				return "Error: 601";
 			}
@@ -824,6 +734,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Intimate{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Intimate";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Playful{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -837,6 +756,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Sensitive";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Peaceful{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Peaceful";
 			} else {
 				return "Error: 601";
 			}
@@ -860,6 +788,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Powerful{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Powerful";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Provocative{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -873,6 +810,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Courageous";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Accepted{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Accepted";
 			} else {
 				return "Error: 601";
 			}
@@ -896,6 +842,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Proud{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Proud";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Confident{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -909,6 +864,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Important";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Interested{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Interested";
 			} else {
 				return "Error: 601";
 			}
@@ -932,6 +896,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Joyful{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Joyful";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Ecstatic{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -945,6 +918,24 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Liberated";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Surprise{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Surprise";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Excited{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Excited";
 			} else {
 				return "Error: 601";
 			}
@@ -968,6 +959,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Amazed{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Amazed";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Awe{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -981,6 +981,15 @@ public static class LOCALIZATION {
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
 				return "Astonished";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
+	public static string Confused{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Confused";
 			} else {
 				return "Error: 601";
 			}
@@ -1004,6 +1013,15 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
+	public static string Startled{
+		get {
+			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
+				return "Startled";
+			} else {
+				return "Error: 601";
+			}
+		} set {} 
+	}
 	public static string Dismayed{
 		get {
 			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
@@ -1022,15 +1040,4 @@ public static class LOCALIZATION {
 			}
 		} set {} 
 	}
-	public static string Terrified{
-		get {
-			if(LOCALIZATION.currentLanguage == LOCALIZATION.language.english){
-				return "Terrified";
-			} else {
-				return "Error: 601";
-			}
-		} set {} 
-	}
-
-
 }

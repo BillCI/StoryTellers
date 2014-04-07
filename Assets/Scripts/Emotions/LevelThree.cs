@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-//l1 = ['Fear','Anger','Disgust','Sad','Happy','Surprise']
-//l2 = ['Scared','Anxious','Insecure','Submissive','Rejected','Humiliated','Hurt','Threatened','Hateful','Mad','Aggresive','Frustrated','Distant','Critical','Disapproval','Disappointed','Awful','Avoidance','Guilty','Abandoned','Despair','Depressed','Lonely','Bored','Optimistic','Intimate','Peaceful','Powerful','Accepted','Proud','Interested','Joyful','Excited','Amazed','Confused','Startled']
-//l3 = ['Frightened','Overwhelmed','Worried','Inadequate','Inferior','Worthless','Insignificant','Inadequate','Aliented','Disrespected','Ridiculed','Emarrassed','Devastated','Insecure','Jealous','Resentful','Violated','Furious','Enraged','Provoked','Hostile','Infuriated','Withdrawn','Suspicious','Skeptical','Sarcastic','Judgmental','Loathing','Repugnant','Revolted','Revulsion','Detestable','Aversion','Hesitant','Remoresful','Ashamed','Ignored','Victimized','Powerless','Vulnerable','Ingerior','Empty','Abandoned','Isolated','Apathetic','Indifferent','Inspired','Open','Playful','Sensitive','Hopeful','Loving','Provocative','Courgeous','Fulfilled','Respected','Congident','Important','Inquisitive','Amused','Estatic','Liberated','Energetic','Eager','Awe','Astonished','Perplexed','Disillusoned','Dismayed','Shocked','Terrigied']
 
+public class Terrified : Emotion {
+	public Terrified(){
+		this._name = LOCALIZATION.Terrified;
+	}
+}
 public class Frightened : Emotion {
 	public Frightened(){
 		this._name = LOCALIZATION.Frightened;
@@ -39,9 +41,9 @@ public class Insignificant : Emotion {
 		this._name = LOCALIZATION.Insignificant;
 	}
 }
-public class Inadequate : Emotion {
-	public Inadequate(){
-		this._name = LOCALIZATION.Inadequate;
+public class Deficient : Emotion {
+	public Deficient(){
+		this._name = LOCALIZATION.Deficient;
 	}
 }
 public class Alienated : Emotion {
@@ -59,9 +61,9 @@ public class Ridiculed : Emotion {
 		this._name = LOCALIZATION.Ridiculed;
 	}
 }
-public class Emarrassed : Emotion {
-	public Emarrassed(){
-		this._name = LOCALIZATION.Emarrassed;
+public class Embarrassed : Emotion {
+	public Embarrassed(){
+		this._name = LOCALIZATION.Embarrassed;
 	}
 }
 public class Devastated : Emotion {
@@ -112,6 +114,11 @@ public class Hostile : Emotion {
 public class Infuriated : Emotion {
 	public Infuriated(){
 		this._name = LOCALIZATION.Infuriated;
+	}
+}
+public class Irritated : Emotion {
+	public Irritated(){
+		this._name = LOCALIZATION.Irritated;
 	}
 }
 public class Withdrawn : Emotion {
@@ -204,9 +211,9 @@ public class Vulnerable : Emotion {
 		this._name = LOCALIZATION.Vulnerable;
 	}
 }
-public class Inferior : Emotion {
-	public Inferior(){
-		this._name = LOCALIZATION.Inferior;
+public class Lesser : Emotion {
+	public Lesser(){
+		this._name = LOCALIZATION.Lesser;
 	}
 }
 public class Empty : Emotion {
@@ -354,10 +361,3 @@ public class Shocked : Emotion {
 		this._name = LOCALIZATION.Shocked;
 	}
 }
-public class Terrified : Emotion {
-	public Terrified(){
-		this._name = LOCALIZATION.Terrified;
-	}
-}
-
-
